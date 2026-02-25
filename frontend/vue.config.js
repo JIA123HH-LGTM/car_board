@@ -3,7 +3,7 @@ const resolve = dir => {
   return path.join(__dirname, dir)
 }
 module.exports = {
-  publicPath: './',
+  publicPath: process.env.NODE_ENV === 'production' ? '/car_board/' : './',
   transpileDependencies: [],
   chainWebpack: config => {
     config.resolve.alias
