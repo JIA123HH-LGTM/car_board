@@ -1,8 +1,8 @@
 import axios from 'axios'
 
 const service = axios.create({
-    baseURL:'http://127.0.0.1:8000/',
-    timeout:4000
+  baseURL: 'https://jia123hh.pythonanywhere.com/myApp',
+  timeout: 4000
 })
 
 export default service
