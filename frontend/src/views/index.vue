@@ -8,7 +8,7 @@
           <div class="d-flex jc-center">
             <dv-decoration-8 class="dv-dec-8" :color="decorationColor" />
             <div class="title">
-              <span class="title-text" style="line-height: 23px">基于汽车销售数据可视化数据大屏</span>
+              <span class="title-text" style="line-height: 23px">基于汽车销售数据分析可视化数据大屏</span>
               <dv-decoration-5
                 class="dv-dec-6"
                 :reverse="true"
