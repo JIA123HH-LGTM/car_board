@@ -7,8 +7,8 @@
         </span>
         <div class="d-flex">
           <span class="fs-xl text mx-2" style="font-size: 17px">油车电车销量对比</span>
-          <a v-on:click="oilClick" href="#"><span style="color: yellow">油车/</span></a>
-          <a v-on:click="electricClick" href="#"><span style="color: greenyellow">电车</span></a>
+          <a v-on:click="electricClick" href="#"><span style="color: greenyellow">电车/</span></a>
+          <a v-on:click="oilClick" href="#"><span style="color: yellow">油车</span></a>
         </div>
       </div>
       <div class="d-flex jc-center body-box">
@@ -43,7 +43,7 @@ export default {
         oddRowBGC: '#0f1325', //奇数行
         evenRowBGC: '#171c33', //偶数行
         index: true,
-        columnWidth: [50, 90, 80, 50],
+        columnWidth: [45, 90, 70, 62],
         align: ['center', 'left', 'center', 'center']
       }
     }
