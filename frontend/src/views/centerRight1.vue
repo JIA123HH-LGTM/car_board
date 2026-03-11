@@ -7,12 +7,12 @@
         </span>
         <div class="d-flex">
           <span class="fs-xl text mx-2" style="font-size: 17px">油车电车销量对比</span>
-          <a v-on:click="electricClick" href="#"><span style="color: greenyellow">电车/</span></a>
-          <a v-on:click="oilClick" href="#"><span style="color: yellow">油车</span></a>
+          <a v-on:click="oilClick" href="#"><span style="color: yellow">油车/</span></a>
+          <a v-on:click="electricClick" href="#"><span style="color: greenyellow">电车</span></a>
         </div>
       </div>
       <div class="d-flex jc-center body-box">
-        <dv-scroll-board class="dv-scr-board" :config="config" v-bind:key="config.data[1][0]"/>
+        <dv-scroll-board class="dv-scr-board" :config="config" v-bind:key="config.data[0][1]"/>
       </div>
     </div>
   </div>
